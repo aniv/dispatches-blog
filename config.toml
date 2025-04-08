@@ -13,3 +13,7 @@ uglyURLs = false
 [params.logo]
   logoText = "Dispatches from the Frontier"
   logoHomeLink = "/"
+
+[services]
+  [services.googleAnalytics]
+    id = 'G-L50N3PZ25N'
