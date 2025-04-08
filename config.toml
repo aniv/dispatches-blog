@@ -8,5 +8,6 @@ uglyURLs = false
 [params]
   contentTypeName = "posts"
   themeColor = "green"
+  themeVariant = "terminal-light"
   showMenu = true
-
+  logo = "Dispatches from the Frontier"
