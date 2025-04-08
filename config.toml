@@ -2,6 +2,8 @@ theme = "terminal"
 baseURL = "https://dispatches.fromthefrontier.xyz/"
 languageCode = "en-us"
 title = "Dispatches from the Frontier"
+canonifyURLs = true
+uglyURLs = false
 
 [params]
   contentTypeName = "posts"
