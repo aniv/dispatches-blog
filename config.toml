@@ -7,7 +7,9 @@ uglyURLs = false
 
 [params]
   contentTypeName = "posts"
-  themeColor = "green"
-  themeVariant = "terminal-light"
+  themeColor = "orange"
   showMenu = true
-  logo = "Dispatches from the Frontier"
+
+[params.logo]
+  logoText = "Dispatches from the Frontier"
+  logoHomeLink = "/"

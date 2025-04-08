@@ -1,7 +1,7 @@
 +++
 date = '2025-04-07T20:58:21-05:00'
-title = 'Just a Test'
+title = 'Is this thing on?'
 draft = false
 +++
 
-seeing if hugo works
+Can I actually get Hugo to play nicely..
