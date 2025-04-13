@@ -9,6 +9,7 @@ uglyURLs = false
   contentTypeName = "posts"
   themeColor = "orange"
   showMenu = true
+  showFullContent = true
 
 [params.logo]
   logoText = "Dispatches from the Frontier"
