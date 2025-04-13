@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dispatches from the Frontier</title>
+    <link>https://dispatches.fromthefrontier.xyz/</link>
+    <description>Recent content on Dispatches from the Frontier</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 Apr 2025 10:18:41 -0500</lastBuildDate>
+    <atom:link href="https://dispatches.fromthefrontier.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Moats for SaaS in the GenAI Era</title>
+      <link>https://dispatches.fromthefrontier.xyz/posts/moats/</link>
+      <pubDate>Sat, 12 Apr 2025 10:18:41 -0500</pubDate>
+      <guid>https://dispatches.fromthefrontier.xyz/posts/moats/</guid>
+      <description>&lt;p&gt;This is unlikely to be the first article you&amp;rsquo;re reading about the existential risk that Generative&#xA;AI (GenAI) is posing to traditional Software-as-a-Service (SaaS) offerings and companies. To recap,&#xA;barriers to launching new SaaS products have been falling for years with decreasing costs (cloud&#xA;computing, distributed workforces), improved distribution (mobile and social platforms), enabling&#xA;technologies (improved browser standards, development frameworks) and buyer familiarity with&#xA;subscriptions.&lt;/p&gt;&#xA;&lt;p&gt;With these costs falling, access to software engineering talent (especially in the US) was one of&#xA;the few remaining constraints on SaaS business growth. Sufficient and timely access to this talent&#xA;became a constraint on revenue potential and also helped lock out the entry of competitors into&#xA;respective markets. What GenAI portends, though, is a significant democratization of this resource,&#xA;which will lower costs and competitive barriers.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

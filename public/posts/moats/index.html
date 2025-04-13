@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Moats for SaaS in the GenAI Era :: Dispatches from the Frontier</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="This is unlikely to be the first article you&rsquo;re reading about the existential risk that Generative AI (GenAI) is posing to traditional Software-as-a-Service (SaaS) offerings and companies. To recap, barriers to launching new SaaS products have been falling for years with decreasing costs (cloud computing, distributed workforces), improved distribution (mobile and social platforms), enabling technologies (improved browser standards, development frameworks) and buyer familiarity with subscriptions.
+With these costs falling, access to software engineering talent (especially in the US) was one of the few remaining constraints on SaaS business growth. Sufficient and timely access to this talent became a constraint on revenue potential and also helped lock out the entry of competitors into respective markets. What GenAI portends, though, is a significant democratization of this resource, which will lower costs and competitive barriers.
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="https://dispatches.fromthefrontier.xyz/posts/moats/" />
+
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-L50N3PZ25N"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-L50N3PZ25N');
+        }
+      </script>
+
+
+
+  
+  <link rel="stylesheet" href="https://dispatches.fromthefrontier.xyz/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="https://dispatches.fromthefrontier.xyz/css/code.min.4f0ccc8439f99bf7f7970298556b94011aabc1fcae743b6842fc3361a2da9ea3.css">
+
+  
+  <link rel="stylesheet" href="https://dispatches.fromthefrontier.xyz/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="https://dispatches.fromthefrontier.xyz/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="https://dispatches.fromthefrontier.xyz/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="https://dispatches.fromthefrontier.xyz/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="https://dispatches.fromthefrontier.xyz/css/main.min.15870410d15d02abd22fb5ef00996f65a00d04b3a7435e9f83831c7c2298de88.css">
+
+  
+  <link rel="stylesheet" href="https://dispatches.fromthefrontier.xyz/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="https://dispatches.fromthefrontier.xyz/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="https://dispatches.fromthefrontier.xyz/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="https://dispatches.fromthefrontier.xyz/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="https://dispatches.fromthefrontier.xyz/css/terminal.min.ac4c1755add5de8b8f6409c89939bcbfc04c8c666d78fb09c1743e96411342aa.css">
+
+  
+  <link rel="stylesheet" href="https://dispatches.fromthefrontier.xyz/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+
+
+
+
+
+<link rel="shortcut icon" href="https://dispatches.fromthefrontier.xyz/favicon.png">
+<link rel="apple-touch-icon" href="https://dispatches.fromthefrontier.xyz/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Moats for SaaS in the GenAI Era">
+<meta property="og:description" content="This is unlikely to be the first article you&rsquo;re reading about the existential risk that Generative AI (GenAI) is posing to traditional Software-as-a-Service (SaaS) offerings and companies. To recap, barriers to launching new SaaS products have been falling for years with decreasing costs (cloud computing, distributed workforces), improved distribution (mobile and social platforms), enabling technologies (improved browser standards, development frameworks) and buyer familiarity with subscriptions.
+With these costs falling, access to software engineering talent (especially in the US) was one of the few remaining constraints on SaaS business growth. Sufficient and timely access to this talent became a constraint on revenue potential and also helped lock out the entry of competitors into respective markets. What GenAI portends, though, is a significant democratization of this resource, which will lower costs and competitive barriers.
+" />
+<meta property="og:url" content="https://dispatches.fromthefrontier.xyz/posts/moats/" />
+<meta property="og:site_name" content="Dispatches from the Frontier" />
+
+  <meta property="og:image" content="https://dispatches.fromthefrontier.xyz/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2025-04-12 10:18:41 -0500 CDT" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="https://dispatches.fromthefrontier.xyz/">
+  <div class="logo">
+    Dispatches from the Frontier
+  </div>
+</a>
+
+    </div>
+    
+    
+  </div>
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="https://dispatches.fromthefrontier.xyz/posts/moats/">Moats for SaaS in the GenAI Era</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2025-04-12</time></div>
+
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <p>This is unlikely to be the first article you&rsquo;re reading about the existential risk that Generative
+AI (GenAI) is posing to traditional Software-as-a-Service (SaaS) offerings and companies. To recap,
+barriers to launching new SaaS products have been falling for years with decreasing costs (cloud
+computing, distributed workforces), improved distribution (mobile and social platforms), enabling
+technologies (improved browser standards, development frameworks) and buyer familiarity with
+subscriptions.</p>
+<p>With these costs falling, access to software engineering talent (especially in the US) was one of
+the few remaining constraints on SaaS business growth. Sufficient and timely access to this talent
+became a constraint on revenue potential and also helped lock out the entry of competitors into
+respective markets. What GenAI portends, though, is a significant democratization of this resource,
+which will lower costs and competitive barriers.</p>
+<p>So are SaaS businesses doomed to be outcompeted by AI upstarts? They&rsquo;re certainly in trouble, but
+are still moats that maybe going overlooked:</p>
+<ol>
+<li><strong>Distribution</strong>: Winning over large, paying customers is not something that happens overnight.
+SaaS companies serving enterprises have had to learn to navigate procurement processes, legal and
+compliance scrutiny and maintain/grow executive sponsorship to secure meaningful growth in contract
+value. Buyers are also wary of AI startups misappropriating their data and are requiring additional
+diligence during procurement. So ironically, buyers&rsquo; bureaucracies will probably buy SaaS incumbents
+some time.</li>
+<li><strong>Non-public data</strong>: Most GenAI foundation models have been trained on data published on the
+internet. Firms that have access to non-public data (by virtue of being gatekeeper or large service
+provider) are well positioned to build compelling AI offerings that are more specific, and less
+generic, than what an upstart can offer. Consider Epic&rsquo;s role with health records, LiveAgent&rsquo;s
+position with customer service, or Equifax with credit reports.</li>
+<li><strong>Evals and model selection</strong>: There is a growing consensus that foundation models will be the
+new &ldquo;chip layer&rdquo; of this AI stack; most firms are unlikely to build their own foundation models but
+rather will select a foundation model and then adjust how these models reason with their data to
+deliver outputs they deem appropriate. Because these models are non-deterministic and hard to
+inspect, the process and criteria for (a) evaluating the selection of a particular foundation model,
+and (b) &ldquo;tweaking&rdquo; a selected model for use in an application, is unique and valuable knowledge.
+Having robust evaluation rubrics will also help companies improve their stacks, and eventually route
+tasks to different foundation models for more optimal responses. While the cost of model inference
+continues to fall, companies with stronger evals may be able to reduce their costs more quickly, by
+utilizing smaller models (with lower inference costs).</li>
+<li><strong>Model prompts</strong>: Coaxing a foundation model to provide an optimal answer to a problem requires
+an optimal prompt. Optimality needs to weigh length of response, time to response, format of
+response and much more. Devising the right input prompt for a problem is not trivial, and also
+offers a competitive barrier.</li>
+<li><strong>Design</strong>: Too few companies are thinking beyond the text-box for their AI interfaces. GenAI
+offers the ability to build new, concise and dynamic interfaces at run-time. Several SaaS companies
+have proven out the importance of new design in driving product and category adoption. OpenAI&rsquo;s
+voice interface is a promising start in this direction.</li>
+</ol>
+
+      </div></div>
+
+  
+    
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="https://dispatches.fromthefrontier.xyz/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
